@@ -22,7 +22,11 @@
 }
 
 body {
-    background-color: #181818;
+    background-color: black;
+}
+.topbar {
+    display: inline;
+
 }
 .welcomemsg {
     float: right;
@@ -33,9 +37,32 @@ body {
     font-family: ;
 }
 .projectsbox {
-    float: left;
-    background-color: #b2653b;
-    
+    width: 30vw;
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    border-style: dotted;
+    border-color: white;
+    padding: 10px;
+}
+.titleascii {
+    color: #C70039;
+    font-size: 20px;
+    text-align: center;
+}
+.borderasciileft {
+    position: absolute;
+    top: 10px;
+    left: 1vw;
+    color: white;
+    font-size: 20px;
+}
+.borderasciiright {
+    position: absolute;
+    top: 10px;
+    left: 60vw;
+    color: white;
+    font-size: 20px;
 }
 @keyframes flicker {
     0% {
