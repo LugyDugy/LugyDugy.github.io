@@ -10,7 +10,7 @@ function extendAsciiArtL() {
     // If the art height is less than the window height, pad the middle
     if (artHeight < windowHeight) {
         const middleLine = "|   |";  // Line to repeat in the middle
-        const lineHeight = 70; // Approximate line height in pixels
+        const lineHeight = 26; // Approximate line height in pixels
         const numberOfLines = Math.ceil((windowHeight - artHeight) / lineHeight);
 
         for (let i = 0; i < numberOfLines; i++) {
@@ -21,11 +21,6 @@ function extendAsciiArtL() {
         }
     }
 }
-
-// Call the function on load and on resize
-window.addEventListener('load', extendAsciiArtL);
-window.addEventListener('resize', extendAsciiArtL);
-
 
 // Call the function on load and on resize
 window.addEventListener('load', extendAsciiArtL);
@@ -43,7 +38,7 @@ function extendAsciiArtR() {
     // If the art height is less than the window height, pad the middle
     if (artHeight < windowHeight) {
         const middleLine = "|   |";  // Line to repeat in the middle
-        const lineHeight = 70; // Approximate line height in pixels
+        const lineHeight = 26; // Approximate line height in pixels
         const numberOfLines = Math.ceil((windowHeight - artHeight) / lineHeight);
 
         for (let i = 0; i < numberOfLines; i++) {

@@ -67,40 +67,51 @@ body {
 }
 
 #ascii-artL {
-  display: fixed;
+  position: static;
   text-align: center;
   color: white;
   float: left;
 }
 #ascii-artR {
-  display: fixed;
+  position: static;
   text-align: center;
   color: white;
   float: right;
+  margin: 0;
 }
-.fixed-bottomL,.fixed-topL,.expL {
+.fixed-bottomL,.fixed-topL {
   position: static;
-  padding-right: 30px;
-  padding-bottom: 0;
+  padding-left: 17vw;
   width: 10vw;
   color: white;
   font-size: 2.3vw;
-  margin: 0;
 }
-.fixed-bottomR,.fixed-topR,.expR {
+.fixed-bottomR,.fixed-topR {
   position: static;
-  padding-right: 30px;
-  padding-bottom: 0;
+  padding-right: 17vw;
+  width: 10vw;
+  color: white;
+  font-size: 2.3vw;
+}
+.expR {
+  position: relative;
+  padding-right: 17vw;
   width: 10vw;
   color: white;
   font-size: 2.3vw;
   margin-top: 0;
   margin-bottom: 0;
 }
-
-
+.expL {
+  position: relative;
+  padding-left: 17vw;
+  width: 10vw;
+  color: white;
+  font-size: 2.3vw;
+  margin: 0;
+}
 @media screen and (min-width: 940px) {
-    .borderasciiright,.borderasciileft {
+    .fixed-bottomR,.fixed-topR,.expR,.fixed-bottomL,.fixed-topL,.expL {
         font-size: 21.5px;
     }
 }
