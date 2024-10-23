@@ -81,30 +81,29 @@ body {
 }
 .fixed-bottomL,.fixed-topL {
   position: static;
-  padding-left: 17vw;
+  padding-left: 10vw;
   width: 10vw;
   color: white;
   font-size: 2.3vw;
 }
 .fixed-bottomR,.fixed-topR {
   position: static;
-  padding-right: 17vw;
+  padding-right: 10vw;
   width: 10vw;
   color: white;
   font-size: 2.3vw;
 }
 .expR {
   position: relative;
-  padding-right: 17vw;
+  padding-right: 10vw;
   width: 10vw;
   color: white;
   font-size: 2.3vw;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 .expL {
   position: relative;
-  padding-left: 17vw;
+  padding-left: 10vw;
   width: 10vw;
   color: white;
   font-size: 2.3vw;
@@ -114,6 +113,16 @@ body {
     .fixed-bottomR,.fixed-topR,.expR,.fixed-bottomL,.fixed-topL,.expL {
         font-size: 21.5px;
     }
+}
+@media screen and (min-width: 940px) {
+  .fixed-bottomR,.fixed-topR,.expR{
+      padding-right: 17vw;
+  }
+}
+@media screen and (min-width: 940px) {
+  .fixed-bottomL,.fixed-topL,.expL{
+      padding-left: 17vw;
+  }
 }
 @keyframes flicker {
     0% {
