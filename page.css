@@ -57,14 +57,6 @@ body {
         font-size: 20px;
     }
 }
-.borderasciileft {
-    position: sticky;
-    float: left;
-    padding-left: 30px;
-    width: 10vw;
-    color: white;
-    font-size: 2.3vw;
-}
 .borderasciiright {
     position: sticky;
     width: 10vw;
@@ -73,6 +65,40 @@ body {
     color: white;
     font-size: 2.3vw;
 }
+
+#ascii-artL {
+  display: fixed;
+  text-align: center;
+  color: white;
+  float: left;
+}
+#ascii-artR {
+  display: fixed;
+  text-align: center;
+  color: white;
+  float: right;
+}
+.fixed-bottomL,.fixed-topL,.expL {
+  position: static;
+  padding-right: 30px;
+  padding-bottom: 0;
+  width: 10vw;
+  color: white;
+  font-size: 2.3vw;
+  margin: 0;
+}
+.fixed-bottomR,.fixed-topR,.expR {
+  position: static;
+  padding-right: 30px;
+  padding-bottom: 0;
+  width: 10vw;
+  color: white;
+  font-size: 2.3vw;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
 @media screen and (min-width: 940px) {
     .borderasciiright,.borderasciileft {
         font-size: 21.5px;
