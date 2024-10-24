@@ -20,7 +20,9 @@
     padding: 1%;
     font-size: xx-large;
 }
-
+.svrstatus {
+  color: #C70039;
+}
 body {
     background-color: black;
 }
