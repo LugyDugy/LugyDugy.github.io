@@ -1,3 +1,7 @@
+@font-face {
+  font-family: sysfont;
+  src: url(fonts/Web437_Compaq_Port3.woff);
+}
 .orange {
     color: #b2653b;
 }
@@ -28,7 +32,7 @@ body {
 }
 .topbar {
     display: inline;
-
+    font-family: sysfont;
 }
 .welcomemsg {
     float: right;
@@ -41,11 +45,22 @@ body {
 .projectsbox {
     width: 30vw;
     margin: auto;
-    text-align: center;
+    text-align: left;
     background-color: black;
     border-style: dotted;
     border-color: white;
-    padding: 10px;
+    padding: 5px;
+    font-family: 'sysfont';
+}
+.contentbox {
+  width: 30vw;
+  margin: auto;
+  text-align: left;
+  background-color: black;
+  border-style: dotted;
+  border-color: white;
+  font-family: 'sysfont';
+  padding: 5px;
 }
 .titleascii {
     position: static;
