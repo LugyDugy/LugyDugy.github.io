@@ -30,6 +30,15 @@
 body {
     background-color: black;
 }
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sysfont;
+    color: #f5eddc;
+    text-align: center;
+}
 .topbar {
     display: inline;
     font-family: sysfont;
@@ -39,9 +48,9 @@ body {
     color: #C70039;
     font-size: larger
 }
-
 .projectsbox {
     width: 30vw;
+    display: flex;
     margin: auto;
     text-align: left;
     background-color: black;
@@ -49,6 +58,14 @@ body {
     border-color: white;
     padding: 5px;
     font-family: 'sysfont';
+}
+.socials {
+  color: #f5eddc;
+  text-align: right;
+  margin-left: auto;
+}
+.updatesbox {
+  width: auto;
 }
 .contentbox {
   width: 30vw;
